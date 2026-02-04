@@ -53,7 +53,7 @@ const CheckoutPage = ({ cart, onRemove }) => {
 
   const sendOrderToBackend = async () => {
     try {
-      const backendUrl = 'http://localhost:8000'; 
+      const backendUrl = 'https://afrobeadie.onrender.com'; 
       
       const response = await fetch(`${backendUrl}/api/orders`, {
         method: 'POST',

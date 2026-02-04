@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { ShoppingCart, Menu, X, Filter, Instagram, Mail, Phone, MapPin, Star, ChevronRight, Heart, Search, Package, CreditCard, ShieldCheck } from 'lucide-react';
+import { ShoppingCart, X,  Package,  } from 'lucide-react';
 
 
 const CartSidebar = ({ isOpen, onClose, cart, onRemove, onCheckout }) => {

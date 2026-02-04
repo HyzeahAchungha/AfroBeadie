@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { ShoppingCart, Menu, X, Filter, Instagram, Mail, Phone, MapPin, Star, ChevronRight, Heart, Search, Package, CreditCard, ShieldCheck } from 'lucide-react';
+import {  X,  Heart} from 'lucide-react';
 
 
 const WishlistSidebar = ({ isOpen, onClose, wishlist, onRemove, onAddToCart }) => {

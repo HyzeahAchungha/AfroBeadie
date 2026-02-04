@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import {  Star, ChevronRight, Package, CreditCard, ShieldCheck } from 'lucide-react';
-import { ProductCard } from '../components';
+import { ProductCard } from '../../src/Components';
 import { PRODUCTS } from '../data/products';
 import { REVIEWS } from '../data/reviews';
 

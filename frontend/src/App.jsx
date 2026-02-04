@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import { Navbar, CartSidebar, WishlistSidebar, SearchModal, Footer } from './components';
-import { HomePage, ShopPage, GalleryPage, ReviewsPage, AboutPage, CheckoutPage } from './pages';
+import { Navbar, CartSidebar, WishlistSidebar, SearchModal, Footer } from '../src/Components';
+import { HomePage, ShopPage, GalleryPage, ReviewsPage, AboutPage, CheckoutPage } from '../src/pages';
 import { PRODUCTS } from './data/products';
 // ... rest of code
 

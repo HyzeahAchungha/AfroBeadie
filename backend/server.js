@@ -399,9 +399,9 @@ app.post('/api/orders', async (req, res) => {
   }
 });
 
-// ============================================
+
 // HEALTH CHECK
-// ============================================
+
 app.get('/health', (req, res) => {
   res.json({ 
     status: 'ok', 
@@ -412,9 +412,9 @@ app.get('/health', (req, res) => {
   });
 });
 
-// ============================================
+
 // TEST EMAIL
-// ============================================
+
 app.post('/api/test-email', async (req, res) => {
   try {
     await resend.emails.send({
